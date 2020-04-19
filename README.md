@@ -1,19 +1,33 @@
-# Exercise 1.5 - Hi Ada Lovelace!
+# Exercise 1.6 - Message Three Times
+
+Write a program that asks the user to write a string. When the user has given a string (that is, written some text and pressed enter), the program must print the user's string three times (you can use the `print` command multiple times).
 
 The exercise template comes with a program template that includes the function and its call.
 
 ```python
-def hi_ada():
-    name = "Ada Lovelace"
+def message_three_times():
+    message = input('Write a message: ')
     # Write your code here
     
-hi_ada()
+message_three_times()
 ```
 
-Modify the program so that it prints the contents of the variable `name`, and the printed text is the following in its full form:
+Example output for when the user writes the string "Hi".
 
 ```plaintext
-Hi Ada Lovelace!
+Write a message:
+*Hi*
+Hi
+Hi
+Hi
 ```
 
-**NB!** When using the `print` command, do not pass in the string "Ada Lovelace" as a parameter. Instead, use the existing variable `name`: `print("Hi " + ...)`
+Example output when the user writes "Once upon a time...".
+
+```plaintext
+Write a message:
+*Once upon a time...*
+Once upon a time...
+Once upon a time...
+Once upon a time...
+```
