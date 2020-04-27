@@ -1,4 +1,6 @@
 def main():
   #write your code below this line
+  message = input("Write a message...")
 
-main()
+if __name__ == '__main__':
+    main()
